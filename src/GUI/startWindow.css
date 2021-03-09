@@ -1,0 +1,36 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+
+.root {
+    -fx-background-image: url("BinaryImage.png");
+}
+
+
+
+#textLabel {
+    -fx-font-size: 15px;
+    -fx-font-family: "Arial Black";
+    -fx-fill: #000000;
+    -fx-effect: innershadow( three-pass-box , rgb(0, 0, 0), 6, 0.0 , 0 , 2 );
+}
+
+#textArea {
+    -fx-font-size: 15px;
+    -fx-background-color: transparent;
+    -fx-font-family: "Calibri Light";
+    -fx-fill: #818181;
+    -fx-effect: innershadow( three-pass-box , rgba(0,0,0,0.4) , 6, 0.0 , 0 , 2 );
+}
+
+
+
+.button {
+    -fx-text-fill: white;
+    -fx-font-family: "Arial Narrow";
+    -fx-font-weight: bold;
+    -fx-background-color: linear-gradient(#909897, #7b7b7b);
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+}
+
+.button:hover {
+    -fx-background-color: linear-gradient(#3d5857, #7b7b7b);
+}

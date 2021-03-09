@@ -1,0 +1,448 @@
+--X---*----X-----*------X---------*--------x------------x--
+Thread ID:
+1
+ExeStack:
+[(int a;(nop;(bool b;(b=true;(IF(b) THEN((a=10;b=false))ELSE((a=-10;b=false));(print(a);print(b)))))))]
+SymTable:
+{}
+Out:
+[]
+FileTable:
+{}
+Heap:
+
+--x---*-----x-----*------x--------*---------X-------------x-
+--X---*----X-----*------X---------*--------x------------x--
+Thread ID:
+1
+ExeStack:
+[(nop;(bool b;(b=true;(IF(b) THEN((a=10;b=false))ELSE((a=-10;b=false));(print(a);print(b)))))), int a]
+SymTable:
+{}
+Out:
+[]
+FileTable:
+{}
+Heap:
+
+--x---*-----x-----*------x--------*---------X-------------x-
+--X---*----X-----*------X---------*--------x------------x--
+Thread ID:
+1
+ExeStack:
+[(nop;(bool b;(b=true;(IF(b) THEN((a=10;b=false))ELSE((a=-10;b=false));(print(a);print(b)))))), int a]
+SymTable:
+{}
+Out:
+[]
+FileTable:
+{}
+Heap:
+
+--x---*-----x-----*------x--------*---------X-------------x-
+--X---*----X-----*------X---------*--------x------------x--
+Thread ID:
+1
+ExeStack:
+[(nop;(bool b;(b=true;(IF(b) THEN((a=10;b=false))ELSE((a=-10;b=false));(print(a);print(b))))))]
+SymTable:
+{a=0}
+Out:
+[]
+FileTable:
+{}
+Heap:
+
+--x---*-----x-----*------x--------*---------X-------------x-
+--X---*----X-----*------X---------*--------x------------x--
+Thread ID:
+1
+ExeStack:
+[(nop;(bool b;(b=true;(IF(b) THEN((a=10;b=false))ELSE((a=-10;b=false));(print(a);print(b))))))]
+SymTable:
+{a=0}
+Out:
+[]
+FileTable:
+{}
+Heap:
+
+--x---*-----x-----*------x--------*---------X-------------x-
+--X---*----X-----*------X---------*--------x------------x--
+Thread ID:
+1
+ExeStack:
+[(bool b;(b=true;(IF(b) THEN((a=10;b=false))ELSE((a=-10;b=false));(print(a);print(b))))), nop]
+SymTable:
+{a=0}
+Out:
+[]
+FileTable:
+{}
+Heap:
+
+--x---*-----x-----*------x--------*---------X-------------x-
+--X---*----X-----*------X---------*--------x------------x--
+Thread ID:
+1
+ExeStack:
+[(bool b;(b=true;(IF(b) THEN((a=10;b=false))ELSE((a=-10;b=false));(print(a);print(b))))), nop]
+SymTable:
+{a=0}
+Out:
+[]
+FileTable:
+{}
+Heap:
+
+--x---*-----x-----*------x--------*---------X-------------x-
+--X---*----X-----*------X---------*--------x------------x--
+Thread ID:
+1
+ExeStack:
+[(bool b;(b=true;(IF(b) THEN((a=10;b=false))ELSE((a=-10;b=false));(print(a);print(b)))))]
+SymTable:
+{a=0}
+Out:
+[]
+FileTable:
+{}
+Heap:
+
+--x---*-----x-----*------x--------*---------X-------------x-
+--X---*----X-----*------X---------*--------x------------x--
+Thread ID:
+1
+ExeStack:
+[(bool b;(b=true;(IF(b) THEN((a=10;b=false))ELSE((a=-10;b=false));(print(a);print(b)))))]
+SymTable:
+{a=0}
+Out:
+[]
+FileTable:
+{}
+Heap:
+
+--x---*-----x-----*------x--------*---------X-------------x-
+--X---*----X-----*------X---------*--------x------------x--
+Thread ID:
+1
+ExeStack:
+[(b=true;(IF(b) THEN((a=10;b=false))ELSE((a=-10;b=false));(print(a);print(b)))), bool b]
+SymTable:
+{a=0}
+Out:
+[]
+FileTable:
+{}
+Heap:
+
+--x---*-----x-----*------x--------*---------X-------------x-
+--X---*----X-----*------X---------*--------x------------x--
+Thread ID:
+1
+ExeStack:
+[(b=true;(IF(b) THEN((a=10;b=false))ELSE((a=-10;b=false));(print(a);print(b)))), bool b]
+SymTable:
+{a=0}
+Out:
+[]
+FileTable:
+{}
+Heap:
+
+--x---*-----x-----*------x--------*---------X-------------x-
+--X---*----X-----*------X---------*--------x------------x--
+Thread ID:
+1
+ExeStack:
+[(b=true;(IF(b) THEN((a=10;b=false))ELSE((a=-10;b=false));(print(a);print(b))))]
+SymTable:
+{a=0, b=false}
+Out:
+[]
+FileTable:
+{}
+Heap:
+
+--x---*-----x-----*------x--------*---------X-------------x-
+--X---*----X-----*------X---------*--------x------------x--
+Thread ID:
+1
+ExeStack:
+[(b=true;(IF(b) THEN((a=10;b=false))ELSE((a=-10;b=false));(print(a);print(b))))]
+SymTable:
+{a=0, b=false}
+Out:
+[]
+FileTable:
+{}
+Heap:
+
+--x---*-----x-----*------x--------*---------X-------------x-
+--X---*----X-----*------X---------*--------x------------x--
+Thread ID:
+1
+ExeStack:
+[(IF(b) THEN((a=10;b=false))ELSE((a=-10;b=false));(print(a);print(b))), b=true]
+SymTable:
+{a=0, b=false}
+Out:
+[]
+FileTable:
+{}
+Heap:
+
+--x---*-----x-----*------x--------*---------X-------------x-
+--X---*----X-----*------X---------*--------x------------x--
+Thread ID:
+1
+ExeStack:
+[(IF(b) THEN((a=10;b=false))ELSE((a=-10;b=false));(print(a);print(b))), b=true]
+SymTable:
+{a=0, b=false}
+Out:
+[]
+FileTable:
+{}
+Heap:
+
+--x---*-----x-----*------x--------*---------X-------------x-
+--X---*----X-----*------X---------*--------x------------x--
+Thread ID:
+1
+ExeStack:
+[(IF(b) THEN((a=10;b=false))ELSE((a=-10;b=false));(print(a);print(b)))]
+SymTable:
+{a=0, b=true}
+Out:
+[]
+FileTable:
+{}
+Heap:
+
+--x---*-----x-----*------x--------*---------X-------------x-
+--X---*----X-----*------X---------*--------x------------x--
+Thread ID:
+1
+ExeStack:
+[(IF(b) THEN((a=10;b=false))ELSE((a=-10;b=false));(print(a);print(b)))]
+SymTable:
+{a=0, b=true}
+Out:
+[]
+FileTable:
+{}
+Heap:
+
+--x---*-----x-----*------x--------*---------X-------------x-
+--X---*----X-----*------X---------*--------x------------x--
+Thread ID:
+1
+ExeStack:
+[(print(a);print(b)), IF(b) THEN((a=10;b=false))ELSE((a=-10;b=false))]
+SymTable:
+{a=0, b=true}
+Out:
+[]
+FileTable:
+{}
+Heap:
+
+--x---*-----x-----*------x--------*---------X-------------x-
+--X---*----X-----*------X---------*--------x------------x--
+Thread ID:
+1
+ExeStack:
+[(print(a);print(b)), IF(b) THEN((a=10;b=false))ELSE((a=-10;b=false))]
+SymTable:
+{a=0, b=true}
+Out:
+[]
+FileTable:
+{}
+Heap:
+
+--x---*-----x-----*------x--------*---------X-------------x-
+--X---*----X-----*------X---------*--------x------------x--
+Thread ID:
+1
+ExeStack:
+[(print(a);print(b)), (a=10;b=false)]
+SymTable:
+{a=0, b=true}
+Out:
+[]
+FileTable:
+{}
+Heap:
+
+--x---*-----x-----*------x--------*---------X-------------x-
+--X---*----X-----*------X---------*--------x------------x--
+Thread ID:
+1
+ExeStack:
+[(print(a);print(b)), (a=10;b=false)]
+SymTable:
+{a=0, b=true}
+Out:
+[]
+FileTable:
+{}
+Heap:
+
+--x---*-----x-----*------x--------*---------X-------------x-
+--X---*----X-----*------X---------*--------x------------x--
+Thread ID:
+1
+ExeStack:
+[(print(a);print(b)), b=false, a=10]
+SymTable:
+{a=0, b=true}
+Out:
+[]
+FileTable:
+{}
+Heap:
+
+--x---*-----x-----*------x--------*---------X-------------x-
+--X---*----X-----*------X---------*--------x------------x--
+Thread ID:
+1
+ExeStack:
+[(print(a);print(b)), b=false, a=10]
+SymTable:
+{a=0, b=true}
+Out:
+[]
+FileTable:
+{}
+Heap:
+
+--x---*-----x-----*------x--------*---------X-------------x-
+--X---*----X-----*------X---------*--------x------------x--
+Thread ID:
+1
+ExeStack:
+[(print(a);print(b)), b=false]
+SymTable:
+{a=10, b=true}
+Out:
+[]
+FileTable:
+{}
+Heap:
+
+--x---*-----x-----*------x--------*---------X-------------x-
+--X---*----X-----*------X---------*--------x------------x--
+Thread ID:
+1
+ExeStack:
+[(print(a);print(b)), b=false]
+SymTable:
+{a=10, b=true}
+Out:
+[]
+FileTable:
+{}
+Heap:
+
+--x---*-----x-----*------x--------*---------X-------------x-
+--X---*----X-----*------X---------*--------x------------x--
+Thread ID:
+1
+ExeStack:
+[(print(a);print(b))]
+SymTable:
+{a=10, b=false}
+Out:
+[]
+FileTable:
+{}
+Heap:
+
+--x---*-----x-----*------x--------*---------X-------------x-
+--X---*----X-----*------X---------*--------x------------x--
+Thread ID:
+1
+ExeStack:
+[(print(a);print(b))]
+SymTable:
+{a=10, b=false}
+Out:
+[]
+FileTable:
+{}
+Heap:
+
+--x---*-----x-----*------x--------*---------X-------------x-
+--X---*----X-----*------X---------*--------x------------x--
+Thread ID:
+1
+ExeStack:
+[print(b), print(a)]
+SymTable:
+{a=10, b=false}
+Out:
+[]
+FileTable:
+{}
+Heap:
+
+--x---*-----x-----*------x--------*---------X-------------x-
+--X---*----X-----*------X---------*--------x------------x--
+Thread ID:
+1
+ExeStack:
+[print(b), print(a)]
+SymTable:
+{a=10, b=false}
+Out:
+[]
+FileTable:
+{}
+Heap:
+
+--x---*-----x-----*------x--------*---------X-------------x-
+--X---*----X-----*------X---------*--------x------------x--
+Thread ID:
+1
+ExeStack:
+[print(b)]
+SymTable:
+{a=10, b=false}
+Out:
+[10]
+FileTable:
+{}
+Heap:
+
+--x---*-----x-----*------x--------*---------X-------------x-
+--X---*----X-----*------X---------*--------x------------x--
+Thread ID:
+1
+ExeStack:
+[print(b)]
+SymTable:
+{a=10, b=false}
+Out:
+[10]
+FileTable:
+{}
+Heap:
+
+--x---*-----x-----*------x--------*---------X-------------x-
+--X---*----X-----*------X---------*--------x------------x--
+Thread ID:
+1
+ExeStack:
+[]
+SymTable:
+{a=10, b=false}
+Out:
+[10, false]
+FileTable:
+{}
+Heap:
+
+--x---*-----x-----*------x--------*---------X-------------x-

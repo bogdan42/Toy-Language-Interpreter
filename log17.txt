@@ -1,0 +1,532 @@
+--X---*----X-----*------X---------*--------x------------x--
+Thread ID:
+4
+ExeStack:
+[(int v;(v=4;(while(v>0){ (print(v);v=v-1) };print(v))))]
+SymTable:
+{}
+Out:
+[]
+FileTable:
+{}
+Heap:
+
+--x---*-----x-----*------x--------*---------X-------------x-
+--X---*----X-----*------X---------*--------x------------x--
+Thread ID:
+4
+ExeStack:
+[(v=4;(while(v>0){ (print(v);v=v-1) };print(v))), int v]
+SymTable:
+{}
+Out:
+[]
+FileTable:
+{}
+Heap:
+
+--x---*-----x-----*------x--------*---------X-------------x-
+--X---*----X-----*------X---------*--------x------------x--
+Thread ID:
+4
+ExeStack:
+[(v=4;(while(v>0){ (print(v);v=v-1) };print(v))), int v]
+SymTable:
+{}
+Out:
+[]
+FileTable:
+{}
+Heap:
+
+--x---*-----x-----*------x--------*---------X-------------x-
+--X---*----X-----*------X---------*--------x------------x--
+Thread ID:
+4
+ExeStack:
+[(v=4;(while(v>0){ (print(v);v=v-1) };print(v)))]
+SymTable:
+{v=0}
+Out:
+[]
+FileTable:
+{}
+Heap:
+
+--x---*-----x-----*------x--------*---------X-------------x-
+--X---*----X-----*------X---------*--------x------------x--
+Thread ID:
+4
+ExeStack:
+[(v=4;(while(v>0){ (print(v);v=v-1) };print(v)))]
+SymTable:
+{v=0}
+Out:
+[]
+FileTable:
+{}
+Heap:
+
+--x---*-----x-----*------x--------*---------X-------------x-
+--X---*----X-----*------X---------*--------x------------x--
+Thread ID:
+4
+ExeStack:
+[(while(v>0){ (print(v);v=v-1) };print(v)), v=4]
+SymTable:
+{v=0}
+Out:
+[]
+FileTable:
+{}
+Heap:
+
+--x---*-----x-----*------x--------*---------X-------------x-
+--X---*----X-----*------X---------*--------x------------x--
+Thread ID:
+4
+ExeStack:
+[(while(v>0){ (print(v);v=v-1) };print(v)), v=4]
+SymTable:
+{v=0}
+Out:
+[]
+FileTable:
+{}
+Heap:
+
+--x---*-----x-----*------x--------*---------X-------------x-
+--X---*----X-----*------X---------*--------x------------x--
+Thread ID:
+4
+ExeStack:
+[(while(v>0){ (print(v);v=v-1) };print(v))]
+SymTable:
+{v=4}
+Out:
+[]
+FileTable:
+{}
+Heap:
+
+--x---*-----x-----*------x--------*---------X-------------x-
+--X---*----X-----*------X---------*--------x------------x--
+Thread ID:
+4
+ExeStack:
+[(while(v>0){ (print(v);v=v-1) };print(v))]
+SymTable:
+{v=4}
+Out:
+[]
+FileTable:
+{}
+Heap:
+
+--x---*-----x-----*------x--------*---------X-------------x-
+--X---*----X-----*------X---------*--------x------------x--
+Thread ID:
+4
+ExeStack:
+[print(v), while(v>0){ (print(v);v=v-1) }]
+SymTable:
+{v=4}
+Out:
+[]
+FileTable:
+{}
+Heap:
+
+--x---*-----x-----*------x--------*---------X-------------x-
+--X---*----X-----*------X---------*--------x------------x--
+Thread ID:
+4
+ExeStack:
+[print(v), while(v>0){ (print(v);v=v-1) }]
+SymTable:
+{v=4}
+Out:
+[]
+FileTable:
+{}
+Heap:
+
+--x---*-----x-----*------x--------*---------X-------------x-
+--X---*----X-----*------X---------*--------x------------x--
+Thread ID:
+4
+ExeStack:
+[print(v), while(v>0){ (print(v);v=v-1) }, v=v-1, print(v)]
+SymTable:
+{v=4}
+Out:
+[]
+FileTable:
+{}
+Heap:
+
+--x---*-----x-----*------x--------*---------X-------------x-
+--X---*----X-----*------X---------*--------x------------x--
+Thread ID:
+4
+ExeStack:
+[print(v), while(v>0){ (print(v);v=v-1) }, v=v-1, print(v)]
+SymTable:
+{v=4}
+Out:
+[]
+FileTable:
+{}
+Heap:
+
+--x---*-----x-----*------x--------*---------X-------------x-
+--X---*----X-----*------X---------*--------x------------x--
+Thread ID:
+4
+ExeStack:
+[print(v), while(v>0){ (print(v);v=v-1) }, v=v-1]
+SymTable:
+{v=4}
+Out:
+[4]
+FileTable:
+{}
+Heap:
+
+--x---*-----x-----*------x--------*---------X-------------x-
+--X---*----X-----*------X---------*--------x------------x--
+Thread ID:
+4
+ExeStack:
+[print(v), while(v>0){ (print(v);v=v-1) }, v=v-1]
+SymTable:
+{v=4}
+Out:
+[4]
+FileTable:
+{}
+Heap:
+
+--x---*-----x-----*------x--------*---------X-------------x-
+--X---*----X-----*------X---------*--------x------------x--
+Thread ID:
+4
+ExeStack:
+[print(v), while(v>0){ (print(v);v=v-1) }]
+SymTable:
+{v=3}
+Out:
+[4]
+FileTable:
+{}
+Heap:
+
+--x---*-----x-----*------x--------*---------X-------------x-
+--X---*----X-----*------X---------*--------x------------x--
+Thread ID:
+4
+ExeStack:
+[print(v), while(v>0){ (print(v);v=v-1) }]
+SymTable:
+{v=3}
+Out:
+[4]
+FileTable:
+{}
+Heap:
+
+--x---*-----x-----*------x--------*---------X-------------x-
+--X---*----X-----*------X---------*--------x------------x--
+Thread ID:
+4
+ExeStack:
+[print(v), while(v>0){ (print(v);v=v-1) }, v=v-1, print(v)]
+SymTable:
+{v=3}
+Out:
+[4]
+FileTable:
+{}
+Heap:
+
+--x---*-----x-----*------x--------*---------X-------------x-
+--X---*----X-----*------X---------*--------x------------x--
+Thread ID:
+4
+ExeStack:
+[print(v), while(v>0){ (print(v);v=v-1) }, v=v-1, print(v)]
+SymTable:
+{v=3}
+Out:
+[4]
+FileTable:
+{}
+Heap:
+
+--x---*-----x-----*------x--------*---------X-------------x-
+--X---*----X-----*------X---------*--------x------------x--
+Thread ID:
+4
+ExeStack:
+[print(v), while(v>0){ (print(v);v=v-1) }, v=v-1]
+SymTable:
+{v=3}
+Out:
+[4, 3]
+FileTable:
+{}
+Heap:
+
+--x---*-----x-----*------x--------*---------X-------------x-
+--X---*----X-----*------X---------*--------x------------x--
+Thread ID:
+4
+ExeStack:
+[print(v), while(v>0){ (print(v);v=v-1) }, v=v-1]
+SymTable:
+{v=3}
+Out:
+[4, 3]
+FileTable:
+{}
+Heap:
+
+--x---*-----x-----*------x--------*---------X-------------x-
+--X---*----X-----*------X---------*--------x------------x--
+Thread ID:
+4
+ExeStack:
+[print(v), while(v>0){ (print(v);v=v-1) }]
+SymTable:
+{v=2}
+Out:
+[4, 3]
+FileTable:
+{}
+Heap:
+
+--x---*-----x-----*------x--------*---------X-------------x-
+--X---*----X-----*------X---------*--------x------------x--
+Thread ID:
+4
+ExeStack:
+[print(v), while(v>0){ (print(v);v=v-1) }]
+SymTable:
+{v=2}
+Out:
+[4, 3]
+FileTable:
+{}
+Heap:
+
+--x---*-----x-----*------x--------*---------X-------------x-
+--X---*----X-----*------X---------*--------x------------x--
+Thread ID:
+4
+ExeStack:
+[print(v), while(v>0){ (print(v);v=v-1) }, v=v-1, print(v)]
+SymTable:
+{v=2}
+Out:
+[4, 3]
+FileTable:
+{}
+Heap:
+
+--x---*-----x-----*------x--------*---------X-------------x-
+--X---*----X-----*------X---------*--------x------------x--
+Thread ID:
+4
+ExeStack:
+[print(v), while(v>0){ (print(v);v=v-1) }, v=v-1, print(v)]
+SymTable:
+{v=2}
+Out:
+[4, 3]
+FileTable:
+{}
+Heap:
+
+--x---*-----x-----*------x--------*---------X-------------x-
+--X---*----X-----*------X---------*--------x------------x--
+Thread ID:
+4
+ExeStack:
+[print(v), while(v>0){ (print(v);v=v-1) }, v=v-1]
+SymTable:
+{v=2}
+Out:
+[4, 3, 2]
+FileTable:
+{}
+Heap:
+
+--x---*-----x-----*------x--------*---------X-------------x-
+--X---*----X-----*------X---------*--------x------------x--
+Thread ID:
+4
+ExeStack:
+[print(v), while(v>0){ (print(v);v=v-1) }, v=v-1]
+SymTable:
+{v=2}
+Out:
+[4, 3, 2]
+FileTable:
+{}
+Heap:
+
+--x---*-----x-----*------x--------*---------X-------------x-
+--X---*----X-----*------X---------*--------x------------x--
+Thread ID:
+4
+ExeStack:
+[print(v), while(v>0){ (print(v);v=v-1) }]
+SymTable:
+{v=1}
+Out:
+[4, 3, 2]
+FileTable:
+{}
+Heap:
+
+--x---*-----x-----*------x--------*---------X-------------x-
+--X---*----X-----*------X---------*--------x------------x--
+Thread ID:
+4
+ExeStack:
+[print(v), while(v>0){ (print(v);v=v-1) }]
+SymTable:
+{v=1}
+Out:
+[4, 3, 2]
+FileTable:
+{}
+Heap:
+
+--x---*-----x-----*------x--------*---------X-------------x-
+--X---*----X-----*------X---------*--------x------------x--
+Thread ID:
+4
+ExeStack:
+[print(v), while(v>0){ (print(v);v=v-1) }, v=v-1, print(v)]
+SymTable:
+{v=1}
+Out:
+[4, 3, 2]
+FileTable:
+{}
+Heap:
+
+--x---*-----x-----*------x--------*---------X-------------x-
+--X---*----X-----*------X---------*--------x------------x--
+Thread ID:
+4
+ExeStack:
+[print(v), while(v>0){ (print(v);v=v-1) }, v=v-1, print(v)]
+SymTable:
+{v=1}
+Out:
+[4, 3, 2]
+FileTable:
+{}
+Heap:
+
+--x---*-----x-----*------x--------*---------X-------------x-
+--X---*----X-----*------X---------*--------x------------x--
+Thread ID:
+4
+ExeStack:
+[print(v), while(v>0){ (print(v);v=v-1) }, v=v-1]
+SymTable:
+{v=1}
+Out:
+[4, 3, 2, 1]
+FileTable:
+{}
+Heap:
+
+--x---*-----x-----*------x--------*---------X-------------x-
+--X---*----X-----*------X---------*--------x------------x--
+Thread ID:
+4
+ExeStack:
+[print(v), while(v>0){ (print(v);v=v-1) }, v=v-1]
+SymTable:
+{v=1}
+Out:
+[4, 3, 2, 1]
+FileTable:
+{}
+Heap:
+
+--x---*-----x-----*------x--------*---------X-------------x-
+--X---*----X-----*------X---------*--------x------------x--
+Thread ID:
+4
+ExeStack:
+[print(v), while(v>0){ (print(v);v=v-1) }]
+SymTable:
+{v=0}
+Out:
+[4, 3, 2, 1]
+FileTable:
+{}
+Heap:
+
+--x---*-----x-----*------x--------*---------X-------------x-
+--X---*----X-----*------X---------*--------x------------x--
+Thread ID:
+4
+ExeStack:
+[print(v), while(v>0){ (print(v);v=v-1) }]
+SymTable:
+{v=0}
+Out:
+[4, 3, 2, 1]
+FileTable:
+{}
+Heap:
+
+--x---*-----x-----*------x--------*---------X-------------x-
+--X---*----X-----*------X---------*--------x------------x--
+Thread ID:
+4
+ExeStack:
+[print(v)]
+SymTable:
+{v=0}
+Out:
+[4, 3, 2, 1]
+FileTable:
+{}
+Heap:
+
+--x---*-----x-----*------x--------*---------X-------------x-
+--X---*----X-----*------X---------*--------x------------x--
+Thread ID:
+4
+ExeStack:
+[print(v)]
+SymTable:
+{v=0}
+Out:
+[4, 3, 2, 1]
+FileTable:
+{}
+Heap:
+
+--x---*-----x-----*------x--------*---------X-------------x-
+--X---*----X-----*------X---------*--------x------------x--
+Thread ID:
+4
+ExeStack:
+[]
+SymTable:
+{v=0}
+Out:
+[4, 3, 2, 1, 0]
+FileTable:
+{}
+Heap:
+
+--x---*-----x-----*------x--------*---------X-------------x-

@@ -1,0 +1,864 @@
+Thread ID:
+2
+ExeStack:
+[(int a;(int b;(int c;(a=1;(b=2;(c=5;(switch(a*11)(case b*c: (print(a);print(b))(case 10: (print(100);print(200))default: print(300));print(300))))))))]
+SymTable:
+{}
+Out:
+[]
+FileTable:
+{}
+Heap:
+
+Thread ID:
+2
+ExeStack:
+[(int b;(int c;(a=1;(b=2;(c=5;(switch(a*11)(case b*c: (print(a);print(b))(case 10: (print(100);print(200))default: print(300));print(300))))))), int a]
+SymTable:
+{}
+Out:
+[]
+FileTable:
+{}
+Heap:
+
+Thread ID:
+2
+ExeStack:
+[(int b;(int c;(a=1;(b=2;(c=5;(switch(a*11)(case b*c: (print(a);print(b))(case 10: (print(100);print(200))default: print(300));print(300))))))), int a]
+SymTable:
+{}
+Out:
+[]
+FileTable:
+{}
+Heap:
+
+Thread ID:
+2
+ExeStack:
+[(int b;(int c;(a=1;(b=2;(c=5;(switch(a*11)(case b*c: (print(a);print(b))(case 10: (print(100);print(200))default: print(300));print(300)))))))]
+SymTable:
+{a=0}
+Out:
+[]
+FileTable:
+{}
+Heap:
+
+Thread ID:
+2
+ExeStack:
+[(int b;(int c;(a=1;(b=2;(c=5;(switch(a*11)(case b*c: (print(a);print(b))(case 10: (print(100);print(200))default: print(300));print(300)))))))]
+SymTable:
+{a=0}
+Out:
+[]
+FileTable:
+{}
+Heap:
+
+Thread ID:
+2
+ExeStack:
+[(int c;(a=1;(b=2;(c=5;(switch(a*11)(case b*c: (print(a);print(b))(case 10: (print(100);print(200))default: print(300));print(300)))))), int b]
+SymTable:
+{a=0}
+Out:
+[]
+FileTable:
+{}
+Heap:
+
+Thread ID:
+2
+ExeStack:
+[(int c;(a=1;(b=2;(c=5;(switch(a*11)(case b*c: (print(a);print(b))(case 10: (print(100);print(200))default: print(300));print(300)))))), int b]
+SymTable:
+{a=0}
+Out:
+[]
+FileTable:
+{}
+Heap:
+
+Thread ID:
+2
+ExeStack:
+[(int c;(a=1;(b=2;(c=5;(switch(a*11)(case b*c: (print(a);print(b))(case 10: (print(100);print(200))default: print(300));print(300))))))]
+SymTable:
+{a=0, b=0}
+Out:
+[]
+FileTable:
+{}
+Heap:
+
+Thread ID:
+2
+ExeStack:
+[(int c;(a=1;(b=2;(c=5;(switch(a*11)(case b*c: (print(a);print(b))(case 10: (print(100);print(200))default: print(300));print(300))))))]
+SymTable:
+{a=0, b=0}
+Out:
+[]
+FileTable:
+{}
+Heap:
+
+Thread ID:
+2
+ExeStack:
+[(a=1;(b=2;(c=5;(switch(a*11)(case b*c: (print(a);print(b))(case 10: (print(100);print(200))default: print(300));print(300))))), int c]
+SymTable:
+{a=0, b=0}
+Out:
+[]
+FileTable:
+{}
+Heap:
+
+Thread ID:
+2
+ExeStack:
+[(a=1;(b=2;(c=5;(switch(a*11)(case b*c: (print(a);print(b))(case 10: (print(100);print(200))default: print(300));print(300))))), int c]
+SymTable:
+{a=0, b=0}
+Out:
+[]
+FileTable:
+{}
+Heap:
+
+Thread ID:
+2
+ExeStack:
+[(a=1;(b=2;(c=5;(switch(a*11)(case b*c: (print(a);print(b))(case 10: (print(100);print(200))default: print(300));print(300)))))]
+SymTable:
+{a=0, b=0, c=0}
+Out:
+[]
+FileTable:
+{}
+Heap:
+
+Thread ID:
+2
+ExeStack:
+[(a=1;(b=2;(c=5;(switch(a*11)(case b*c: (print(a);print(b))(case 10: (print(100);print(200))default: print(300));print(300)))))]
+SymTable:
+{a=0, b=0, c=0}
+Out:
+[]
+FileTable:
+{}
+Heap:
+
+Thread ID:
+2
+ExeStack:
+[(b=2;(c=5;(switch(a*11)(case b*c: (print(a);print(b))(case 10: (print(100);print(200))default: print(300));print(300)))), a=1]
+SymTable:
+{a=0, b=0, c=0}
+Out:
+[]
+FileTable:
+{}
+Heap:
+
+Thread ID:
+2
+ExeStack:
+[(b=2;(c=5;(switch(a*11)(case b*c: (print(a);print(b))(case 10: (print(100);print(200))default: print(300));print(300)))), a=1]
+SymTable:
+{a=0, b=0, c=0}
+Out:
+[]
+FileTable:
+{}
+Heap:
+
+Thread ID:
+2
+ExeStack:
+[(b=2;(c=5;(switch(a*11)(case b*c: (print(a);print(b))(case 10: (print(100);print(200))default: print(300));print(300))))]
+SymTable:
+{a=1, b=0, c=0}
+Out:
+[]
+FileTable:
+{}
+Heap:
+
+Thread ID:
+2
+ExeStack:
+[(b=2;(c=5;(switch(a*11)(case b*c: (print(a);print(b))(case 10: (print(100);print(200))default: print(300));print(300))))]
+SymTable:
+{a=1, b=0, c=0}
+Out:
+[]
+FileTable:
+{}
+Heap:
+
+Thread ID:
+2
+ExeStack:
+[(c=5;(switch(a*11)(case b*c: (print(a);print(b))(case 10: (print(100);print(200))default: print(300));print(300))), b=2]
+SymTable:
+{a=1, b=0, c=0}
+Out:
+[]
+FileTable:
+{}
+Heap:
+
+Thread ID:
+2
+ExeStack:
+[(c=5;(switch(a*11)(case b*c: (print(a);print(b))(case 10: (print(100);print(200))default: print(300));print(300))), b=2]
+SymTable:
+{a=1, b=0, c=0}
+Out:
+[]
+FileTable:
+{}
+Heap:
+
+Thread ID:
+2
+ExeStack:
+[(c=5;(switch(a*11)(case b*c: (print(a);print(b))(case 10: (print(100);print(200))default: print(300));print(300)))]
+SymTable:
+{a=1, b=2, c=0}
+Out:
+[]
+FileTable:
+{}
+Heap:
+
+Thread ID:
+2
+ExeStack:
+[(c=5;(switch(a*11)(case b*c: (print(a);print(b))(case 10: (print(100);print(200))default: print(300));print(300)))]
+SymTable:
+{a=1, b=2, c=0}
+Out:
+[]
+FileTable:
+{}
+Heap:
+
+Thread ID:
+2
+ExeStack:
+[(switch(a*11)(case b*c: (print(a);print(b))(case 10: (print(100);print(200))default: print(300));print(300)), c=5]
+SymTable:
+{a=1, b=2, c=0}
+Out:
+[]
+FileTable:
+{}
+Heap:
+
+Thread ID:
+2
+ExeStack:
+[(switch(a*11)(case b*c: (print(a);print(b))(case 10: (print(100);print(200))default: print(300));print(300)), c=5]
+SymTable:
+{a=1, b=2, c=0}
+Out:
+[]
+FileTable:
+{}
+Heap:
+
+Thread ID:
+2
+ExeStack:
+[(switch(a*11)(case b*c: (print(a);print(b))(case 10: (print(100);print(200))default: print(300));print(300))]
+SymTable:
+{a=1, b=2, c=5}
+Out:
+[]
+FileTable:
+{}
+Heap:
+
+Thread ID:
+2
+ExeStack:
+[(switch(a*11)(case b*c: (print(a);print(b))(case 10: (print(100);print(200))default: print(300));print(300))]
+SymTable:
+{a=1, b=2, c=5}
+Out:
+[]
+FileTable:
+{}
+Heap:
+
+Thread ID:
+2
+ExeStack:
+[print(300), switch(a*11)(case b*c: (print(a);print(b))(case 10: (print(100);print(200))default: print(300))]
+SymTable:
+{a=1, b=2, c=5}
+Out:
+[]
+FileTable:
+{}
+Heap:
+
+Thread ID:
+2
+ExeStack:
+[print(300), switch(a*11)(case b*c: (print(a);print(b))(case 10: (print(100);print(200))default: print(300))]
+SymTable:
+{a=1, b=2, c=5}
+Out:
+[]
+FileTable:
+{}
+Heap:
+
+Thread ID:
+2
+ExeStack:
+[print(300), IF(a*11==b*c) THEN((print(a);print(b)))ELSE(IF(a*11==10) THEN((print(100);print(200)))ELSE(print(300)))]
+SymTable:
+{a=1, b=2, c=5}
+Out:
+[]
+FileTable:
+{}
+Heap:
+
+Thread ID:
+2
+ExeStack:
+[print(300), IF(a*11==b*c) THEN((print(a);print(b)))ELSE(IF(a*11==10) THEN((print(100);print(200)))ELSE(print(300)))]
+SymTable:
+{a=1, b=2, c=5}
+Out:
+[]
+FileTable:
+{}
+Heap:
+
+Thread ID:
+2
+ExeStack:
+[print(300), IF(a*11==10) THEN((print(100);print(200)))ELSE(print(300))]
+SymTable:
+{a=1, b=2, c=5}
+Out:
+[]
+FileTable:
+{}
+Heap:
+
+Thread ID:
+2
+ExeStack:
+[print(300), IF(a*11==10) THEN((print(100);print(200)))ELSE(print(300))]
+SymTable:
+{a=1, b=2, c=5}
+Out:
+[]
+FileTable:
+{}
+Heap:
+
+Thread ID:
+2
+ExeStack:
+[print(300), print(300)]
+SymTable:
+{a=1, b=2, c=5}
+Out:
+[]
+FileTable:
+{}
+Heap:
+
+Thread ID:
+2
+ExeStack:
+[print(300), print(300)]
+SymTable:
+{a=1, b=2, c=5}
+Out:
+[]
+FileTable:
+{}
+Heap:
+
+Thread ID:
+2
+ExeStack:
+[print(300)]
+SymTable:
+{a=1, b=2, c=5}
+Out:
+[300]
+FileTable:
+{}
+Heap:
+
+Thread ID:
+2
+ExeStack:
+[print(300)]
+SymTable:
+{a=1, b=2, c=5}
+Out:
+[300]
+FileTable:
+{}
+Heap:
+
+Thread ID:
+2
+ExeStack:
+[]
+SymTable:
+{a=1, b=2, c=5}
+Out:
+[300, 300]
+FileTable:
+{}
+Heap:
+
+Thread ID:
+2
+ExeStack:
+[(int a;(int b;(int c;(a=1;(b=2;(c=5;(switch(a*11)(case b*c: (print(a);print(b))(case 10: (print(100);print(200))default: print(300));print(300))))))))]
+SymTable:
+{}
+Out:
+[]
+FileTable:
+{}
+Heap:
+
+Thread ID:
+2
+ExeStack:
+[(int b;(int c;(a=1;(b=2;(c=5;(switch(a*11)(case b*c: (print(a);print(b))(case 10: (print(100);print(200))default: print(300));print(300))))))), int a]
+SymTable:
+{}
+Out:
+[]
+FileTable:
+{}
+Heap:
+
+Thread ID:
+2
+ExeStack:
+[(int b;(int c;(a=1;(b=2;(c=5;(switch(a*11)(case b*c: (print(a);print(b))(case 10: (print(100);print(200))default: print(300));print(300))))))), int a]
+SymTable:
+{}
+Out:
+[]
+FileTable:
+{}
+Heap:
+
+Thread ID:
+2
+ExeStack:
+[(int b;(int c;(a=1;(b=2;(c=5;(switch(a*11)(case b*c: (print(a);print(b))(case 10: (print(100);print(200))default: print(300));print(300)))))))]
+SymTable:
+{a=0}
+Out:
+[]
+FileTable:
+{}
+Heap:
+
+Thread ID:
+2
+ExeStack:
+[(int b;(int c;(a=1;(b=2;(c=5;(switch(a*11)(case b*c: (print(a);print(b))(case 10: (print(100);print(200))default: print(300));print(300)))))))]
+SymTable:
+{a=0}
+Out:
+[]
+FileTable:
+{}
+Heap:
+
+Thread ID:
+2
+ExeStack:
+[(int c;(a=1;(b=2;(c=5;(switch(a*11)(case b*c: (print(a);print(b))(case 10: (print(100);print(200))default: print(300));print(300)))))), int b]
+SymTable:
+{a=0}
+Out:
+[]
+FileTable:
+{}
+Heap:
+
+Thread ID:
+2
+ExeStack:
+[(int c;(a=1;(b=2;(c=5;(switch(a*11)(case b*c: (print(a);print(b))(case 10: (print(100);print(200))default: print(300));print(300)))))), int b]
+SymTable:
+{a=0}
+Out:
+[]
+FileTable:
+{}
+Heap:
+
+Thread ID:
+2
+ExeStack:
+[(int c;(a=1;(b=2;(c=5;(switch(a*11)(case b*c: (print(a);print(b))(case 10: (print(100);print(200))default: print(300));print(300))))))]
+SymTable:
+{a=0, b=0}
+Out:
+[]
+FileTable:
+{}
+Heap:
+
+Thread ID:
+2
+ExeStack:
+[(int c;(a=1;(b=2;(c=5;(switch(a*11)(case b*c: (print(a);print(b))(case 10: (print(100);print(200))default: print(300));print(300))))))]
+SymTable:
+{a=0, b=0}
+Out:
+[]
+FileTable:
+{}
+Heap:
+
+Thread ID:
+2
+ExeStack:
+[(a=1;(b=2;(c=5;(switch(a*11)(case b*c: (print(a);print(b))(case 10: (print(100);print(200))default: print(300));print(300))))), int c]
+SymTable:
+{a=0, b=0}
+Out:
+[]
+FileTable:
+{}
+Heap:
+
+Thread ID:
+2
+ExeStack:
+[(a=1;(b=2;(c=5;(switch(a*11)(case b*c: (print(a);print(b))(case 10: (print(100);print(200))default: print(300));print(300))))), int c]
+SymTable:
+{a=0, b=0}
+Out:
+[]
+FileTable:
+{}
+Heap:
+
+Thread ID:
+2
+ExeStack:
+[(a=1;(b=2;(c=5;(switch(a*11)(case b*c: (print(a);print(b))(case 10: (print(100);print(200))default: print(300));print(300)))))]
+SymTable:
+{a=0, b=0, c=0}
+Out:
+[]
+FileTable:
+{}
+Heap:
+
+Thread ID:
+2
+ExeStack:
+[(a=1;(b=2;(c=5;(switch(a*11)(case b*c: (print(a);print(b))(case 10: (print(100);print(200))default: print(300));print(300)))))]
+SymTable:
+{a=0, b=0, c=0}
+Out:
+[]
+FileTable:
+{}
+Heap:
+
+Thread ID:
+2
+ExeStack:
+[(b=2;(c=5;(switch(a*11)(case b*c: (print(a);print(b))(case 10: (print(100);print(200))default: print(300));print(300)))), a=1]
+SymTable:
+{a=0, b=0, c=0}
+Out:
+[]
+FileTable:
+{}
+Heap:
+
+Thread ID:
+2
+ExeStack:
+[(b=2;(c=5;(switch(a*11)(case b*c: (print(a);print(b))(case 10: (print(100);print(200))default: print(300));print(300)))), a=1]
+SymTable:
+{a=0, b=0, c=0}
+Out:
+[]
+FileTable:
+{}
+Heap:
+
+Thread ID:
+2
+ExeStack:
+[(b=2;(c=5;(switch(a*11)(case b*c: (print(a);print(b))(case 10: (print(100);print(200))default: print(300));print(300))))]
+SymTable:
+{a=1, b=0, c=0}
+Out:
+[]
+FileTable:
+{}
+Heap:
+
+Thread ID:
+2
+ExeStack:
+[(b=2;(c=5;(switch(a*11)(case b*c: (print(a);print(b))(case 10: (print(100);print(200))default: print(300));print(300))))]
+SymTable:
+{a=1, b=0, c=0}
+Out:
+[]
+FileTable:
+{}
+Heap:
+
+Thread ID:
+2
+ExeStack:
+[(c=5;(switch(a*11)(case b*c: (print(a);print(b))(case 10: (print(100);print(200))default: print(300));print(300))), b=2]
+SymTable:
+{a=1, b=0, c=0}
+Out:
+[]
+FileTable:
+{}
+Heap:
+
+Thread ID:
+2
+ExeStack:
+[(c=5;(switch(a*11)(case b*c: (print(a);print(b))(case 10: (print(100);print(200))default: print(300));print(300))), b=2]
+SymTable:
+{a=1, b=0, c=0}
+Out:
+[]
+FileTable:
+{}
+Heap:
+
+Thread ID:
+2
+ExeStack:
+[(c=5;(switch(a*11)(case b*c: (print(a);print(b))(case 10: (print(100);print(200))default: print(300));print(300)))]
+SymTable:
+{a=1, b=2, c=0}
+Out:
+[]
+FileTable:
+{}
+Heap:
+
+Thread ID:
+2
+ExeStack:
+[(c=5;(switch(a*11)(case b*c: (print(a);print(b))(case 10: (print(100);print(200))default: print(300));print(300)))]
+SymTable:
+{a=1, b=2, c=0}
+Out:
+[]
+FileTable:
+{}
+Heap:
+
+Thread ID:
+2
+ExeStack:
+[(switch(a*11)(case b*c: (print(a);print(b))(case 10: (print(100);print(200))default: print(300));print(300)), c=5]
+SymTable:
+{a=1, b=2, c=0}
+Out:
+[]
+FileTable:
+{}
+Heap:
+
+Thread ID:
+2
+ExeStack:
+[(switch(a*11)(case b*c: (print(a);print(b))(case 10: (print(100);print(200))default: print(300));print(300)), c=5]
+SymTable:
+{a=1, b=2, c=0}
+Out:
+[]
+FileTable:
+{}
+Heap:
+
+Thread ID:
+2
+ExeStack:
+[(switch(a*11)(case b*c: (print(a);print(b))(case 10: (print(100);print(200))default: print(300));print(300))]
+SymTable:
+{a=1, b=2, c=5}
+Out:
+[]
+FileTable:
+{}
+Heap:
+
+Thread ID:
+2
+ExeStack:
+[(switch(a*11)(case b*c: (print(a);print(b))(case 10: (print(100);print(200))default: print(300));print(300))]
+SymTable:
+{a=1, b=2, c=5}
+Out:
+[]
+FileTable:
+{}
+Heap:
+
+Thread ID:
+2
+ExeStack:
+[print(300), switch(a*11)(case b*c: (print(a);print(b))(case 10: (print(100);print(200))default: print(300))]
+SymTable:
+{a=1, b=2, c=5}
+Out:
+[]
+FileTable:
+{}
+Heap:
+
+Thread ID:
+2
+ExeStack:
+[print(300), switch(a*11)(case b*c: (print(a);print(b))(case 10: (print(100);print(200))default: print(300))]
+SymTable:
+{a=1, b=2, c=5}
+Out:
+[]
+FileTable:
+{}
+Heap:
+
+Thread ID:
+2
+ExeStack:
+[print(300), IF(a*11==b*c) THEN((print(a);print(b)))ELSE(IF(a*11==10) THEN((print(100);print(200)))ELSE(print(300)))]
+SymTable:
+{a=1, b=2, c=5}
+Out:
+[]
+FileTable:
+{}
+Heap:
+
+Thread ID:
+2
+ExeStack:
+[print(300), IF(a*11==b*c) THEN((print(a);print(b)))ELSE(IF(a*11==10) THEN((print(100);print(200)))ELSE(print(300)))]
+SymTable:
+{a=1, b=2, c=5}
+Out:
+[]
+FileTable:
+{}
+Heap:
+
+Thread ID:
+2
+ExeStack:
+[print(300), IF(a*11==10) THEN((print(100);print(200)))ELSE(print(300))]
+SymTable:
+{a=1, b=2, c=5}
+Out:
+[]
+FileTable:
+{}
+Heap:
+
+Thread ID:
+2
+ExeStack:
+[print(300), IF(a*11==10) THEN((print(100);print(200)))ELSE(print(300))]
+SymTable:
+{a=1, b=2, c=5}
+Out:
+[]
+FileTable:
+{}
+Heap:
+
+Thread ID:
+2
+ExeStack:
+[print(300), print(300)]
+SymTable:
+{a=1, b=2, c=5}
+Out:
+[]
+FileTable:
+{}
+Heap:
+
+Thread ID:
+2
+ExeStack:
+[print(300), print(300)]
+SymTable:
+{a=1, b=2, c=5}
+Out:
+[]
+FileTable:
+{}
+Heap:
+
+Thread ID:
+2
+ExeStack:
+[print(300)]
+SymTable:
+{a=1, b=2, c=5}
+Out:
+[300]
+FileTable:
+{}
+Heap:
+
+Thread ID:
+2
+ExeStack:
+[print(300)]
+SymTable:
+{a=1, b=2, c=5}
+Out:
+[300]
+FileTable:
+{}
+Heap:
+
+Thread ID:
+2
+ExeStack:
+[]
+SymTable:
+{a=1, b=2, c=5}
+Out:
+[300, 300]
+FileTable:
+{}
+Heap:
+

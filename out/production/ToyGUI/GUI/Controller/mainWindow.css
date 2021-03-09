@@ -1,0 +1,29 @@
+.root {
+    -fx-background-image: url("BinaryImage.png");
+}
+
+.label{
+    -fx-font-size: 16px;
+    -fx-font-family: "Comic Sans MS";
+    -fx-text-alignment: center;
+    -fx-text-fill: rgb(42, 59, 52);
+}
+
+
+
+#valueHeapTable{
+    -fx-font-size: 15px;
+    -fx-font-family: Calibri;
+}
+
+.button {
+    -fx-text-fill: white;
+    -fx-font-family: "Arial Narrow";
+    -fx-font-weight: bold;
+    -fx-background-color: linear-gradient(#909897, #7b7b7b);
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+}
+
+.button:hover {
+    -fx-background-color: linear-gradient(#3d5857, #7b7b7b);
+}

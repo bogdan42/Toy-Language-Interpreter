@@ -1,0 +1,28 @@
+--X---*----X-----*------X---------*--------x------------x--
+Thread ID:
+21
+ExeStack:
+[(int v;(Ref int a;(v=10;(new(a,22);(fork((writeHeap(a, 30);(v=32;(print(v);print(readHeap(a))))));(print(v);print(readHeap(a))))))))]
+SymTable:
+{}
+Out:
+[]
+FileTable:
+{}
+Heap:
+
+--x---*-----x-----*------x--------*---------X-------------x-
+--X---*----X-----*------X---------*--------x------------x--
+Thread ID:
+21
+ExeStack:
+[(Ref int a;(v=10;(new(a,22);(fork((writeHeap(a, 30);(v=32;(print(v);print(readHeap(a))))));(print(v);print(readHeap(a))))))), int v]
+SymTable:
+{}
+Out:
+[]
+FileTable:
+{}
+Heap:
+
+--x---*-----x-----*------x--------*---------X-------------x-
